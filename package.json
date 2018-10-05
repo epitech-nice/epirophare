@@ -1,0 +1,23 @@
+{
+  "name": "epirophare",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "audio-loader": "^1.0.3",
+    "audio-play": "^2.2.1",
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "child_process": "^1.0.2",
+    "express": "^4.16.3",
+    "node-cron": "^2.0.1",
+    "nodemon": "^1.17.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js || node app.js"
+  },
+  "author": "Alexis Miele",
+  "license": "ISC"
+}
